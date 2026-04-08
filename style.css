@@ -1,0 +1,56 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #e0f2fe; /* 기본 배경색 (하늘색) */
+    background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+    background-attachment: fixed;
+    color: #1e3a8a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #0369a1;
+    margin-top: 60px;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+#travel-styles, #country-selection, #recommendation-details {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 650px;
+    display: block; /* 기본적으로 block으로 설정 */
+}
+
+/* 초기 상태에서 숨길 섹션들 */
+#country-selection, #recommendation-details {
+    display: none; 
+}
+
+.style-btn, .country-btn {
+    background-color: white;
+    color: #0369a1;
+    border: 2px solid #0369a1;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 8px;
+    transition: all 0.2s;
+}
+
+.style-btn:hover, .country-btn:hover {
+    background-color: #0369a1;
+    color: white;
+}
+
+#details-content {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 20px;
+}

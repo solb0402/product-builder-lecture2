@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Find your perfect travel destination</h1>
+    
+    <div id="travel-styles">
+        <h2>1. Choose your style</h2>
+        <button class="style-btn" data-style="adventure">Adventure</button>
+        <button class="style-btn" data-style="relax">Relax</button>
+        <button class="style-btn" data-style="culture">Culture</button>
+        <button class="style-btn" data-style="foodie">Foodie</button>
+    </div>
+
+    <div id="country-selection" class="hidden">
+        <h2>2. Pick a country</h2>
+        <div id="country-buttons"></div>
+    </div>
+
+    <div id="recommendation-details" class="hidden">
+        <h2>3. Your Destination Info</h2>
+        <div id="details-content"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
